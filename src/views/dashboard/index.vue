@@ -86,6 +86,13 @@ export default {
   name: "Dashboard",
   computed: {
     ...mapGetters(["name"])
+  },
+  data() {
+    return {
+      data: [],
+      aaa: "",
+      ccc: ""
+    };
   }
 };
 </script>
